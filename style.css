@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Custom CSS  */
+body {
+    font-family: "Poppins", arial, sans-serif;
+}
+.main_table_wrap {
+    width: 100%;
+}
+.sub_table {
+    max-width: 600px;
+    margin: auto;
+}
+.sub_table_head, .table_footer {
+    background-color: #345c72;
+    height: 50px;
+    color: #fff;
+}
+td, tr, table {
+    border-collapse: collapse;
+}
+.wrapper {
+    padding: 30px;
+}
+.table_footer {
+    text-align: center;
+}
+td {
+    padding: 20px 20px 0;
+}
+.callToAction_table {
+    width: 100%;
+}
+.callToAction_td {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.callToAction_link {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: indigo;
+    color: #fff;
+    display: inline-block;
+    transition: background-color 0.4s;
+}
+.callToAction_link:hover {
+    background-color: #345c72;
+}
+.height_20 {
+    height: 20px;
+}
+.table_footer td {
+    padding: 0;
+}
+.padding_0 {
+    padding: 0;
+}
